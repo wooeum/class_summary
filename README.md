@@ -13,5 +13,11 @@
 ## 산출물 파일 링크
 
 ## 애플리케이션 설계서
+- 데이터베이스 정의서
+  - 테이블명: ORDERS
+  - 테이블 설명: 고객의 주문 정보를 저장하는 테이블 
+  - 컬럼 정보
+
+
 - 프로그램 파일 목록
 ![alt text](https://github.com/wooeum/class_summary/blob/main/data/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-08%20121919.png)
