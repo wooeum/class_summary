@@ -16,7 +16,8 @@
 - 데이터베이스 정의서
   - 테이블명: account_user
   - 테이블 설명: 고객정보를 관리
-  - 컬럼 정보![alt text](https://github.com/wooeum/class_summary/blob/main/data/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-08%20142628.png)
+  - 컬럼 정보
+![alt text](https://github.com/wooeum/class_summary/blob/main/data/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-08%20142628.png)
   - 테이블명: account_user
   - 테이블 설명: 고객정보를 관리
   - 컬럼 정보(https://github.com/wooeum/class_summary/blob/main/data/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-08%20142628.png)
