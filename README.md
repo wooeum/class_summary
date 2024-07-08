@@ -14,4 +14,4 @@
 
 ## 애플리케이션 설계서
 - 프로그램 파일 목록
-  - ![alt text](https://github.com/wooeum/class_summary/blob/main/data/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-08%20121919.png)
+![alt text](https://github.com/wooeum/class_summary/blob/main/data/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-08%20121919.png)
