@@ -1,0 +1,25 @@
+> beautiful soup
+html과 xml문서를 parsing할 수 있다. => html 문서에서 원하는 것을 골라서 정보를 추출한다
+beautifulsoup에서 원하는 태그가 포함된 부분을 찾는 역할을 하는것 - find(), select()
+- prettify(): html 구조를 파악하기 쉽게 바꿔줌
+- find_all('태그이름'): 해당하는 태그를 모두 뽑아준다
+- select('태그이름'): 해당하는 태그를 모두 뽑아준다
+find - html , css - select
+- soup.get_text(): 텍스트만 뽑아냄. ex> 동물원.html코드에서 동물이름만 출력됨
+
+> requests 모듈
+원하는 웹 페이지의 html 문서를 싹 긁어온다.  => url을 주고 해당 url의 문서를 가져옴
+get() / post() 함수를 이용해 url을 넣어 서버 요청.
+이 두함수는 요청함수이다.
+get() - client가 자원을 요청하는 것.
+post() - client가 자기꺼를 서버로 전송하는것이 목적
+
+request.get(url) - 매개변수: params, headers- user-agent, referer ( 둘다 딕셔너리로 전달함) - response객체를 반환받음
+request.post(url) - url에 post요청을 보내고, response 객체를 반환 받는다. params 속성에 딕셔너리를 넣어, 쿼리 스트링을 삽입할 수 있다.
+
+res = requests~
+res.content -> 바이너리 타입으로 데이터 받는다
+res.text -> utf-8로 인코딩된 문자열을 받는다
+<과정>
+requests를 통해 연결을 해주고 beautifulsoup로 택스트를 받아온다
+

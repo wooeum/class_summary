@@ -1,0 +1,20 @@
+블럭에 있는 내용들은 알아서 바꿔라. 바꾸지 않으면 default값으로 Document사용.
+
+def xxxx(request):
+	return render(request, "home.html")
+과 같은 역할. 단순히 응답만 하면될때 TemplateView.as_view함수를 사용.
+
+{{question.pk}} => html에서는 중괄호가 없으면 html코드에 해당하므로 문자그대로를 찍어준다.
+하지만 href={%  question.pk%} 에서는 이 자체가 장고 코드이므로 중괄호없이 적어도 괜찮다.
+
+모델 폼은 model 을 상속받지만 form에 save기능이 추가된 것과 비슷하다
+
+<오늘 오전>
+사용자 가입 앱을 만드려고한다. 장고에서 제공하는 admin과 비슷한 형태를 가지므로 여기에서 가져다 쓰려고한다. models에서 추가로 필요한 속성들을 정의해주고 admin에서는 admin과 유사하게 보여지는 화면을 꾸미는 것이다. 그리고 이제 view를 다룸
+
+이제 로그인을 할거다.
+
+사용자 인증에는 로그인 처리와 로그아웃 처리가 있고 또 로그인 여부를 확인하는 것이 있다.
+
+
+request user로 세션을 사용해서 바뀌지 않지만 

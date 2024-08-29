@@ -1,0 +1,17 @@
+노션 사용법
+
+1. 처음에 pull 받을때
+- git init
+- git remote add origin (깃허브 주소)
+- git remote add origin main
+
+2. 프로젝트 진행시
+- git pull을 받아서 수정
+- git commit 
+- git pull origin main
+    - 수정한 부분이 겹칠때 -> 오류 발생 -> 코드를 보고 고친 후 다시 commit부터
+    - merge  될때 -> push하기
+
+3. 여러 브랜치 사용
+- 다른 브랜치로 가는 방법 -> git checkout (브랜치 이름)
+

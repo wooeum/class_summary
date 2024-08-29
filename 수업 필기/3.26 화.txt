@@ -1,0 +1,13 @@
+설치 목록
+- beautifulsoup4
+- lxml
+- requests
+
+http 프로토콜은 요청하는 목적에 따라 두개로 나눔 
+1. get방식 
+2.post방식
+
+url도 분석할줄 알아야된다
+
+headers에 키밸류쌍으로 전달해주면 됨
+

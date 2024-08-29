@@ -1,0 +1,12 @@
+WordNetLemmatizer => 단어의 기본형을 반환하는데 더 정확하게 하기위해 품사까지 지정해줄 수 있다.
+품사와 같은 문법적요소와 문장내에서의 의미적인 부분을 감안해 찾기 때문에 어간추출 방식보다 더 정교하다
+ex) new와 news
+lemma: 표제어
+
+lemm = WordNetLemmatizer()    # 객체생성
+lemm.lemmatize("are", pos="v")   # lemmatize함수 실행
+
+
+FreqDist => 토큰(단어)의 수를 세준다
+key: 토큰(단어), value: 개수로 가지는 딕셔너리 형태
+

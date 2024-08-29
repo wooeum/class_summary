@@ -1,0 +1,21 @@
+OCR - Optical Character Recognition(광학 문자 인식)의 줄임말 
+사람이 쓰거나 기계로 인쇄한 문자의 영상을 이미지 스캐너로 획득하여 기계가 읽을 수 있는 문자로 변환하는 것이다
+
+현재 OCR의 두 단계
+1. Text Detection Model: 글자의 영역을 탐지하는 모델
+2. Text Recognition Model: 해당 영역에서 글자를 인식하는 모델
+
+
+전체 개발 과정
+1. Data Pre-Processing
+글자를 잘 인식하기 위한 전처리 단계. (ex. 색 픽셀 값 조절)
+
+2. Text Detection Model
+이미지를 CNN에 넣은 후 이미지의 feature를 추출한다
+여기서 얻는 feature data는 텍스트의 영역과 각도
+먼저 텍스트가 존재하는 영역을 찾은 뒤, 이 영역의 각도가 수평이 되도록 각도를 조절하고, 이 후에 이미지를 텍스트 단위로 분할한다
+
+3. Text Recognition Model
+text detection을 통해 텍스트를 분할하고 나면, 분할한 텍스트가 어떤 글자인지 인식하는 단계인 text recognition으로 넘어간다.
+이를 위해선 사전에 model 학습이 필요.( 우리는 초중고 손글씨로 학습시킬예정)
+이미지를 cnn에 입력해 해당 텍스트 이미지가 어떤 글자인지 파악할 수 있도록 학습한다.

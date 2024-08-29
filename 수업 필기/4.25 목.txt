@@ -1,0 +1,9 @@
+4.25 목
+python -m venv env
+env\scripts\activate
+pip install jupyterlab pandas matplotlib scikit-learn
+
+분류는 모든걸 맞추기위해 학습함
+
+회귀 - 연속형 값은 못맞춘다
+그래서 모른다고 가정하고 학습함
